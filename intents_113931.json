@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning"],
+      "responses": ["Hello!", "Hi there!", "Hey!"]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you", "goodbye"],
+      "responses": ["Bye!", "See you!", "Goodbye!"]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you"],
+      "responses": ["You're welcome!", "No problem!"]
+    },
+
+    {
+      "tag": "weather",
+      "patterns": ["weather", "weather today", "temperature"],
+      "responses": ["I can't check weather yet.", "Not sure, but I hope it's good!"]
+    },
+
+    {
+      "tag": "name",
+      "patterns": ["your name", "who are you"],
+      "responses": ["I'm your chatbot!", "You can call me ChatBot."]
+    },
+
+    {
+      "tag": "age",
+      "patterns": ["your age", "how old are you"],
+      "responses": ["I don't have an age!", "I'm a bot, I don't age."]
+    },
+
+    {
+      "tag": "jokes",
+      "patterns": ["joke", "tell me a joke"],
+      "responses": [
+        "Why do programmers hate bugs? Because they have to fix them!",
+        "I tried to catch fog yesterday. I mist!"
+      ]
+    },
+
+    {
+      "tag": "time",
+      "patterns": ["time", "current time"],
+      "responses": ["I can't check the time yet.", "Look at your device clock!"]
+    },
+
+    {
+      "tag": "date",
+      "patterns": ["date", "today date"],
+      "responses": ["I can't check the date yet.", "Your calendar knows better!"]
+    },
+
+    {
+      "tag": "feelings",
+      "patterns": ["how are you", "how is it going"],
+      "responses": ["I'm good!", "I'm doing great!"]
+    },
+
+    {
+      "tag": "help",
+      "patterns": ["help", "can you help me"],
+      "responses": ["I'm here to help!", "Sure, tell me!"]
+    },
+
+    {
+      "tag": "interns",
+      "patterns": ["interns", "Safeer", "Arman", "Aakel", "Irbaz"],
+      "responses": ["Interns: Safeer, Arman, Aakel, Irbaz."]
+    },
+
+    {
+      "tag": "unknown",
+      "patterns": [""],
+      "responses": ["I didn't understand.", "Please say that again."]
+    }
+  ]
+}
