@@ -34,3 +34,6 @@ How It Works
 The chatbot loads training patterns and intent labels from intents.json, preprocesses the text using tokenization and stemming, converts the text into numerical features with CountVectorizer, and trains a Logistic Regression model to predict the intent of new user messages.
 
 Run the program and interact with the chatbot through the command line. Type quit to exit.
+
+<img width="494" height="201" alt="Project 1 Output" src="https://github.com/user-attachments/assets/5b52ccd7-291f-490d-b109-04f7f529e705" />
+
