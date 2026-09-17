@@ -11,7 +11,7 @@
 *MENTOR*: Dharmendhar G V
 
 *Description*:
-ML Interns Chatbot 🤖
+  ML Interns Chatbot 🤖
 
 A simple machine-learning-based chatbot built with Python that uses Natural Language Processing (NLP) and Logistic Regression to classify user messages into predefined intents and generate appropriate responses.
 
